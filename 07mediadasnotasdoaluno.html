@@ -1,0 +1,28 @@
+<meta charset="UTF-8">
+<script>
+    //Peça para o aluno informar as três notas que obteve em CADAS TRIMESTRE, na disciplina de Programação I. Calcule e apresente a média que o aluno obteve ao final do ano.
+
+    const nota1pri = prompt("Primeira nota 1°tri:");
+    const nota2pri = prompt("Segunda nota 1°tri");
+    const nota3pri = prompt("Terceira nota 1°tri");
+
+    const nota1se = prompt("Primeira nota 2°tri");
+    const nota2se = prompt("Segunda nota 2°tri");
+    const nota3se = prompt("Terceira nota 2°tri");
+
+    const nota1ter = prompt("Primeira nota 3°tri");
+    const nota2ter = prompt("Segunda nota 3°tri");
+    const nota3ter = prompt("Terceira nota 3°tri");
+
+    const primeiro = Number(nota1pri) + Number(nota2pri) + Number(nota3pri);
+    const segundo = Number(nota1se) + Number(nota2se) + Number(nota3se);
+    const terceiro = Number(nota1ter) + Number(nota2ter) + Number(nota3se);
+    const primeiro1 = primeiro / 3;
+    const segundo1 = segundo / 3;
+    const terceiro1 = terceiro / 3;
+    const resultado = primeiro1 + segundo1 + terceiro1;
+    const resultado2 = resultado / 3;
+
+
+    document.write("Sua média será " + resultado2);
+</script>
